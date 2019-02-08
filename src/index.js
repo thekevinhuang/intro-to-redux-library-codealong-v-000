@@ -12,8 +12,8 @@ const store = createStore(shoppingListItemReducer)
 
 ReactDOM.render(
   <Provider store = {store}>
-  {' '}
-  <App />
+    {' '}
+    <App />
   </Provider>,
   document.getElementById('root')
 );
